@@ -99,6 +99,7 @@
 		AE1C7640287B47A3002C0CC0 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
+				AE5CAEFF2887990F00E788EE /* OnBoarding */,
 				AE47C22A287CF91600C523B6 /* Files */,
 				AE47C22B287CFA1800C523B6 /* Login */,
 				AE1C7641287B47A3002C0CC0 /* AppDelegate.swift */,
@@ -141,6 +142,13 @@
 				AE47C22C287CFA4700C523B6 /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		AE5CAEFF2887990F00E788EE /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = OnBoarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
