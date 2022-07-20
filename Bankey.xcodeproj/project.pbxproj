@@ -16,6 +16,7 @@
 		AE1C7666287B47A6002C0CC0 /* BankeyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C7665287B47A6002C0CC0 /* BankeyUITests.swift */; };
 		AE1C7668287B47A6002C0CC0 /* BankeyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1C7667287B47A6002C0CC0 /* BankeyUITestsLaunchTests.swift */; };
 		AE47C22D287CFA4700C523B6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE47C22C287CFA4700C523B6 /* LoginView.swift */; };
+		AE5CAF0128879DEB00E788EE /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5CAF0028879DEB00E788EE /* OnboardingContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AE1C7665287B47A6002C0CC0 /* BankeyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyUITests.swift; sourceTree = "<group>"; };
 		AE1C7667287B47A6002C0CC0 /* BankeyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankeyUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AE47C22C287CFA4700C523B6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AE5CAF0028879DEB00E788EE /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				AE5CAEFF2887990F00E788EE /* OnBoarding */,
-				AE47C22A287CF91600C523B6 /* Files */,
 				AE47C22B287CFA1800C523B6 /* Login */,
+				AE47C22A287CF91600C523B6 /* Files */,
 				AE1C7641287B47A3002C0CC0 /* AppDelegate.swift */,
 			);
 			path = Bankey;
@@ -147,6 +149,7 @@
 		AE5CAEFF2887990F00E788EE /* OnBoarding */ = {
 			isa = PBXGroup;
 			children = (
+				AE5CAF0028879DEB00E788EE /* OnboardingContainerViewController.swift */,
 			);
 			path = OnBoarding;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE1C7646287B47A3002C0CC0 /* LoginViewController.swift in Sources */,
+				AE5CAF0128879DEB00E788EE /* OnboardingContainerViewController.swift in Sources */,
 				AE1C764C287B47A3002C0CC0 /* Bankey.xcdatamodeld in Sources */,
 				AE47C22D287CFA4700C523B6 /* LoginView.swift in Sources */,
 				AE1C7642287B47A3002C0CC0 /* AppDelegate.swift in Sources */,
